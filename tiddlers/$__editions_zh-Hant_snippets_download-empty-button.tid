@@ -1,0 +1,10 @@
+created: 20231126081048424
+modified: 20231126081055362
+tags: 
+title: $:/editions/zh-Hant/snippets/download-empty-button
+type: text/vnd.tiddlywiki
+
+<$button class="tc-btn-download">
+<$action-sendmessage $message="tm-download-file" $param="$:/editions/zh-Hant/download-empty" filename="empty.zh-Hant.html"/>
+正體中文版 {{$:/core/images/save-button}}
+</$button>

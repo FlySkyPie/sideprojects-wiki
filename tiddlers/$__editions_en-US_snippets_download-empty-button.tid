@@ -1,0 +1,10 @@
+created: 20231126080956711
+modified: 20231126081020429
+tags: 
+title: $:/editions/en-US/snippets/download-empty-button
+type: text/vnd.tiddlywiki
+
+<$button class="tc-btn-download">
+<$action-sendmessage $message="tm-download-file" $param="$:/editions/en-US/download-empty" filename="empty.html"/>
+英文版  {{$:/core/images/save-button}}
+</$button>
