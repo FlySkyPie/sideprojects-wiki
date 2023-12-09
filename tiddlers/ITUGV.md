@@ -1,0 +1,1 @@
+獨立性無人地面載具 (ITUGV, Independent Task Unmanned Ground Vehicle) 是一個旨在發展出類似 [Rover](https://en.wikipedia.org/wiki/Rover_(space_exploration)) 可遠距遙控載具的專案。
