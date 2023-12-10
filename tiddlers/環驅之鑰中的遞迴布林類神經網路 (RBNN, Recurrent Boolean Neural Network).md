@@ -8,4 +8,8 @@
 
 RBNN 單純是參考了遞迴類神經網路 (RNN) 加入了遞迴的要素使該演算法具備記憶性。
 
+## 相關條目
+
+- [布林類神經網路](#布林類神經網路)
+
 [^bnn]: Boolean Neural Network. (R. Kohut, B. Steinbach). Retrieved 2023-10-08, from https://www.semanticscholar.org/paper/Boolean-Neural-Networks-Kohut-Steinbach/1c472945ab2970a709efe97f81d9a5e7bf37baae

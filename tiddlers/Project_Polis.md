@@ -1,4 +1,4 @@
-- 一種去中心化叢集運算架構，用以建構運算 Hakoniwa 的網路。
+- 一種去中心化叢集運算架構，用以建構運算 [Hakoniwa](#Project:Hakoniwa) 的網路。
 - Polis 是「古希臘城邦」的意思。
 
 ## 基本概念 Concept
@@ -9,7 +9,7 @@
 - 複雜的 OOP 結構
 - 伺服器端使用單執行緒
 
-以前我試著寫 Minecraft [插件](https://youtu.be/vH0KOeijNeQ)的時候，因為有使用到 NMS (net.minecraft.server) 的 API，因此大概知道 Minecraft 的程式碼大量使用了多層繼承 (Multilevel Inheritance)，然而這種 OOP 模式不只增加了開發者的負擔（本人認為多層繼承是一種反模式），更會造成在處理 Minecraft 這樣複雜的遊戲內容時，狀態的管理不容易控制而造成 bug 並且難以排除。
+以前我試著寫 [Minecraft 插件](<#Project:SyntheticEmpire>)的時候，因為有使用到 [NMS](#NMS) 的 API，因此大概知道 Minecraft 的程式碼大量使用了多層繼承 (Multilevel Inheritance)，然而這種 OOP 模式不只增加了開發者的負擔（本人認為多層繼承是一種反模式），更會造成在處理 Minecraft 這樣複雜的遊戲內容時，狀態的管理不容易控制而造成 bug 並且難以排除。
 
 於是我打算使用 ECS (Entity Component System) 架構來解決，其概念就是單純化資料容器 (Entity 與 Component)，由 System 執行邏輯運算，透過分離資料和邏輯達到更清晰的程式碼，並且複數 System 有序執行的方式讓狀態管理單純化。然而這個架構有個問題，就是 System 有序執行的特性讓我不知道如何搭配多執行緒來提高軟體對硬體資源的利用率。
 

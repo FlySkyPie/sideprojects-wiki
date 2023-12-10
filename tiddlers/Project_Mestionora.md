@@ -1,0 +1,1 @@
+取名自輕小說[小書痴的下剋上](https://en.wikipedia.org/wiki/Ascendance_of_a_Bookworm)作品中虛構的[梅斯緹歐若拉女神](https://ascendance-of-a-bookworm.fandom.com/wiki/Mestionora)，意思為智慧女神。

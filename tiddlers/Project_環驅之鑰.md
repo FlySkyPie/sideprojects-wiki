@@ -12,11 +12,11 @@
 ## 子專案
 
 本專案由四大子專案構成，分別是：
-- [Hakoniwa](#Hakoniwa)
+- [Hakoniwa](#Project:Hakoniwa)
     - 目的在於開發一個系統用於運行 Minecraft-like (Voxel) 世界。
 - Monkey
     - 目的在於開發一個系統用於運行基於布林類神經網路的人工智慧。
-- [Primordial Soup](<#Primordial Soup>)
+- [Primordial Soup](<#Project:Primordial Soup>)
     - 目的在於建立布林類神經網路的相關理論與工程規格，並開發一個系統用於儲存布林類神經網路的。
 - Anima
     - 目的在於實現編輯布林類神經網路使其依照特定的目的運行。
