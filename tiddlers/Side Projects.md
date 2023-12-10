@@ -13,8 +13,8 @@
 
 ### 高職時期 (2010~2015)
 
-- [MMFEDP (Modular Multi-Faceted Electrical Develop Platform)](#MMFEDP)
-- [ITUGV (Independent Task Unmanned Ground Vehicle)](#ITUGV)
+- [MMFEDP (Modular Multi-Faceted Electrical Develop Platform)](#Project:MMFEDP)
+- [ITUGV (Independent Task Unmanned Ground Vehicle)](#Project:ITUGV)
 - [程式蠱](#程式蠱)
 - [VB.NET 土砲 2.D 遊戲](<#VB.NET 土砲 2.D 遊戲>)
 - [VB.NET 太空軌道模擬遊戲](<#VB.NET 太空軌道模擬遊戲>)
@@ -43,3 +43,7 @@
   - [R3F Chibi Shootgame](<#R3F Chibi Shootgame>)
   - [aimAndShoot （ECS 重構）](<#aimAndShoot （ECS 重構）>)
 - Own War （編譯）
+
+## 依類型分類
+
+請見[專案代號](<#Named Projects>)條目。

@@ -6,5 +6,5 @@ MMFEDP (Modular Multi-Faceted Electrical Develop Platform) 出於一個純粹的
 
 ## 後續發展
 
-Alpha 0005 還在圖紙階段時，變透過專案重組與重性定位歸入 [ITUGV](#ITUGV) 專案旗下。
+Alpha 0005 還在圖紙階段時，變透過專案重組與重性定位歸入 [ITUGV](#Project:ITUGV) 專案旗下。
 
