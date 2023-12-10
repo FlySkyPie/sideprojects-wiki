@@ -13,6 +13,10 @@ Markdown 應該是一種理想儲存法規的格式，但是如果要說服學�
 - Array to ODT ([OpenDocument](https://en.wikipedia.org/wiki/OpenDocument))
   - [https://github.com/FlySkyPie/regulation-odt](https://github.com/FlySkyPie/regulation-odt)
 
+### 相關發文
+
+- 2020-02-19 YouTube [Regulation ODText/PDF Generator test](https://youtu.be/6k2gvw3NZw0)
+
 ## Web 實作
 
 因為 PHP 實作受限於需要伺服器執行，資料轉換邏輯本身並沒有非得在後端執行的問題，想說以 Javascript 實作便能輕易以網頁應用程式的形式被人使用，另外順便練習一下 [Vue.js](https://en.wikipedia.org/wiki/Vue.js)。

@@ -9,6 +9,10 @@
 - Javascript 轉 Typescript
 - 引入現代 Toolchain (Vite)
 
+## 相關發文
+
+- 2023-09-24 Blog [ECS 學習與 aimAndShoot 重構之旅](https://flyskypie.github.io/blog/2023-09-24_a-journey-about-learning-ecs/)
+
 ## 程式碼
 
 [https://github.com/FlySkyPie/aimAndShoot](https://github.com/FlySkyPie/aimAndShoot)

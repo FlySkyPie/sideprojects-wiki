@@ -2,6 +2,8 @@
 
 - [ITUGV](#Project:ITUGV)
   - [MMFEDP](#Project:MMFEDP)
+- [香巴朵 Online](<#Project:香巴朵 Online>)
+- [Ouroboros Program](<#Project:Ouroboros Program>)
 - [環驅之鑰](#Project:環驅之鑰)
 
 

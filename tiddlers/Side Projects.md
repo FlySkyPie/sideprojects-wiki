@@ -15,15 +15,15 @@
 
 - [MMFEDP (Modular Multi-Faceted Electrical Develop Platform)](#Project:MMFEDP)
 - [ITUGV (Independent Task Unmanned Ground Vehicle)](#Project:ITUGV)
+  - [土砲無刷馬達](#土砲無刷馬達)
+  - [土砲熔爐](#土砲熔爐)
 - [程式蠱](#程式蠱)
 - [VB.NET 土砲 2.D 遊戲](<#VB.NET 土砲 2.D 遊戲>)
 - [VB.NET 太空軌道模擬遊戲](<#VB.NET 太空軌道模擬遊戲>)
 - [VB.NET 彈幕遊戲](<#VB.NET 彈幕遊戲>)
 - [VB.NET 打字遊戲](<#VB.NET 打字遊戲>)
 - [LED 陣列](<#土砲 LED 陣列>)
-- [土砲無刷馬達](#土砲無刷馬達)
 - 髮箍耳機
-- [土砲熔爐](#土砲熔爐)
 - [香巴朵 Online](<#Project:香巴朵 Online>)
 
 ### 大學時期 (2015~2020)
@@ -42,8 +42,8 @@
   - [Dental Defender: Saga of the Candy Horde （重構）](<#Dental Defender: Saga of the Candy Horde （重構）>)
   - [R3F Chibi Shootgame](<#R3F Chibi Shootgame>)
   - [aimAndShoot （ECS 重構）](<#aimAndShoot （ECS 重構）>)
-- Own War （編譯）
+- [Own War （編譯）](<#Own War （編譯）>)
 
 ## 依類型分類
 
-請見[專案代號](<#Named Projects>)條目。
+詳見[專案代號](<#Named Projects>)條目。
