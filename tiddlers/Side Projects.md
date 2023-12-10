@@ -7,14 +7,14 @@
 ### 國中時期 (2007~2010)
 
 - 飛貓工作室
-- [飛貓論壇](https://shiangbado.666forum.com/)
+- [飛貓論壇](#飛貓論壇)
 - 烈焰勇者
 - FCO (FlyCat Online)
 
 ### 高職時期 (2010~2015)
 
 - [MMFEDP (Modular Multi-Faceted Electrical Develop Platform)](#MMFEDP)
-- ITUGV (Independent Task Unmanned Ground Vehicle)
+- [ITUGV (Independent Task Unmanned Ground Vehicle)](#ITUGV)
 - [程式蠱](#程式蠱)
 - [VB.NET 土砲 2.D 遊戲](<#VB.NET 土砲 2.D 遊戲>)
 - [VB.NET 太空軌道模擬遊戲](<#VB.NET 太空軌道模擬遊戲>)
@@ -28,9 +28,9 @@
 
 ### 大學時期 (2015~2020)
 
-- CNS下載工具
-- 遞迴迷宮鼠Maze_Rat
-- 物理實驗電位分析
+- [CNS下載工具](<#CNS下載工具>)
+- [遞迴迷宮鼠](#遞迴迷宮鼠)
+- [物理實驗電位分析](#物理實驗電位分析)
 - C 幣論壇
 - [畢業專題-熔爐](#移動熔爐)
 - [A4 作業](<#A4 作業>)
@@ -38,7 +38,7 @@
 ### 至今 (2020~Now)
 
 - Dental Defender: Saga of the Candy Horde （重構）
-- 法規 Markdown 編輯器
+- [法規 Markdown 編輯器](<#法規 Markdown 編輯器>)
 - 底火的芬芳
 - R3F Chibi Shootgame
 - aimAndShoot （重構）
