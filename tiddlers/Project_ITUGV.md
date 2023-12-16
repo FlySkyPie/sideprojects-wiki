@@ -30,6 +30,10 @@
 
 ## 模組
 
+- Obj.FSP.Track.Mk I
+  - [Alpha_0005 手稿](<#MMFEDP 手稿>) 的原始設計。
+- Obj.FSP.Track.Mk II
+  - 失敗設計，使用熱溶膠黏著，強度無法承受履帶運動時的拉扯。
 - [Obj.FSP.Track.Mk III](<#Obj.FSP.Track.Mk III>)
 - [Obj.FSP.Track.Mk IV](<#Obj.FSP.Track.Mk IV>)
 - [Obj.Suspension.part.Mk I](<#Obj.Suspension.part.Mk I>)
