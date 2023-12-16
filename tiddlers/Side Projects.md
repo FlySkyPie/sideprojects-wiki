@@ -1,9 +1,3 @@
-對不少人而言業餘專案 (Side Project) 是一種給履歷鍍金、尋找商業化出路、創造被動收入...之類的存在。不過對我而言它只是一種[專題式學習 (Project Based Learning)](https://en.wikipedia.org/wiki/Project-based_learning) 的媒介。
-
-建立一個目標，然後前進，過程中學到的東西會跟經驗結合而特別深刻，就是這麼簡單。
-
-## 依時間分類
-
 ### 國中時期 (2007~2010)
 
 - 飛貓工作室
@@ -31,7 +25,7 @@
 - [CNS下載工具](<#CNS下載工具>)
 - [遞迴迷宮鼠](#遞迴迷宮鼠)
 - [物理實驗電位分析](#物理實驗電位分析)
-- C 幣論壇
+- [C 幣論壇](<#C 幣論壇>)
 - [SyntheticEmpire](<#Project:SyntheticEmpire>)
 - [畢業專題-熔爐](#移動熔爐)
 - [凹鐵絲機](#凹鐵絲機)
@@ -47,7 +41,3 @@
   - [aimAndShoot （ECS 重構）](<#aimAndShoot （ECS 重構）>)
 - [Own War （編譯）](<#Own War （編譯）>)
 - [](<#3DS x Linux x Javascript x Bad Apple>)
-
-## 依類型分類
-
-詳見[專案代號](<#Named Projects>)條目。
