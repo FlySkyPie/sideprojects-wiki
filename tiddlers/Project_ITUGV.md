@@ -8,5 +8,12 @@
 
 然而 2023 年的 [FlyPie](#FlyPie) 不知道 CSEoS 是什麼東西。
 
+## 歷史
+
+由 [MMFEDP](#Project:MMFEDP) 專案發展而來。
+
+## 相關條目
+
+- [ITUGV 手稿](<#ITUGV 手稿>)
 
 [^legacy-flycat-database-website]: Fly-Cat Research Team Data Management System. Retrieved 2023-12-16, from https://flyskypie.github.io/legacy-flycat-database-website/ITUGV.html
