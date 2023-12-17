@@ -1,12 +1,21 @@
 [FlyPie](#FlyPie) 在課程中獲得 Side Project 的啟發。
 
-- [石塑黏土配方研究方法](#石塑黏土配方研究方法)
-  - 國文課
-- [](<#移動熔爐>)
-  - 專題製作
-- [](<#A4 作業>)
-  - X 光繞射
-- [](<#IV 曲線分析>)
-  - 材料製程實驗（1）
-- [物理實驗電位分析](#物理實驗電位分析)
-  - 物理實驗
+- 國文課
+  - [石塑黏土配方研究方法](#石塑黏土配方研究方法)
+- 專題製作
+  - [](<#移動熔爐>)
+- X 光繞射
+  - [](<#A4 作業>)
+  - 2020-02-21 HackMD [XRD（X光繞射） 筆記](https://hackmd.io/@FlySkyPie/HJQ-GgamI)
+    - 2020-02-21 HackMD [X光繞射方法](https://hackmd.io/@FlySkyPie/BymTI7WJB)
+    - 2020-02-21 HackMD [愛德華球（Ewald Sphere）](https://hackmd.io/@FlySkyPie/Sk0gImWkH)
+    - 2020-02-21 HackMD [如何計算米勒指標平面族數量？](https://hackmd.io/@FlySkyPie/H1u6EXZyB)
+    - 2020-02-21 HackMD [倒置晶格（Reciprocal lattice）](https://hackmd.io/@FlySkyPie/H1WUHQbyB)
+    - 2020-02-21 HackMD [Pauling’s rules](https://hackmd.io/@FlySkyPie/ryabmmbkB)
+    - 2020-02-21 HackMD [勞厄方程式（Laue equations）](https://hackmd.io/@FlySkyPie/Hk-u87byr)
+- 材料製程實驗（1）
+  - [](<#IV 曲線分析>)
+- 物理實驗 
+  - [物理實驗電位分析](#物理實驗電位分析)
+- 工程數學
+  - 2019-12-19 HackMD [工程數學筆記 - 通俗的理解卷積運算 (convolution)](https://hackmd.io/@FlySkyPie/H1OzModCr)

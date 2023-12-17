@@ -15,3 +15,6 @@
   - 為了廢柴機器人比賽而而準備的東西，最後並沒有完成。可以說是 [ITUGV](<#Project:ITUGV>) 的餘韻。
 - 2019-09-11 HackMD [當___的時候，F12 就對了](https://hackmd.io/@FlySkyPie/S1iCb4L8H)
   - 為了分享會而準備的內容
+- 2019-11-11 HackMD [工程數學筆記 - 所以說解了一堆方程式，這到底在幹麻？](https://hackmd.io/@FlySkyPie/ryJ8whLoS)
+  - 為了分享會而準備的內容
+- 2020-02-21 HackMD [虎尾地區某兩家豆漿店鍋貼比較](https://hackmd.io/@FlySkyPie/HJD1kjm3N)
