@@ -1,0 +1,1 @@
+關於[基底現實](https://ja.wikipedia.org/wiki/BLAME!#基底現実)的各種基礎建設都歸類在這個專案。
