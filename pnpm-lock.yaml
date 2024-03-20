@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  tiddlywiki:
+    specifier: ^5.3.3
+    version: 5.3.3
+
+packages:
+
+  /tiddlywiki@5.3.3:
+    resolution: {integrity: sha512-PkgVfZNpFFHyMmfFw91igXOJn8Z7IWg3NGXOX5EBqJwzGNeYYOIUg4FqCNsWoqBece20HxtkDue/vTf2jDtdZQ==}
+    engines: {node: '>=0.8.2'}
+    hasBin: true
+    dev: true
+    bundledDependencies: []

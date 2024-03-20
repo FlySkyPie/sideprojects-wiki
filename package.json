@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "tiddlywiki . --listen",
+		"build": "pnpm build:bundle",
+		"build:bundle": "tiddlywiki . --build index",
+		"build:static": "cp public/* output"
+	},
+	"devDependencies": {
+		"tiddlywiki": "^5.3.3"
+	}
+}
