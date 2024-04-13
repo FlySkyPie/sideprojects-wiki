@@ -1,11 +1,19 @@
 {
 	"scripts": {
 		"start": "tiddlywiki . --listen",
-		"build": "pnpm build:bundle",
+		"build": "pnpm build:bundle && pnpm build:static",
 		"build:bundle": "tiddlywiki . --build index",
-		"build:static": "cp public/* output"
+		"build:static": "cp public/* output",
+		"patch": "vite-node cli/run.ts"
 	},
 	"devDependencies": {
-		"tiddlywiki": "^5.3.3"
+		"@types/jsdom": "^21.1.6",
+		"tiddlywiki": "^5.3.3",
+		"typescript": "^5.2.2",
+		"vite": "^5.2.8",
+		"vite-node": "^1.5.0"
+	},
+	"dependencies": {
+		"jsdom": "^24.0.0"
 	}
 }
