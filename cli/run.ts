@@ -1,4 +1,4 @@
-import { JSDOM } from "jsdom";
+import { JSDOM, VirtualConsole } from "jsdom";
 import fs from "fs-extra";
 import path from "path";
 import cliProgress from "cli-progress";
@@ -17,8 +17,12 @@ type ITiddler = {
 };
 
 console.log("Extracting Tiddlers...");
+const virtualConsole = new VirtualConsole();
+virtualConsole.on("error", () => {
+  // Ignore `Error: Could not parse CSS stylesheet` error.
+});
 
-const document = new JSDOM(tiddlyHtmlStr).window.document;
+const document = new JSDOM(tiddlyHtmlStr, { virtualConsole }).window.document;
 
 /**
  * Extract tidders from embedded json.
