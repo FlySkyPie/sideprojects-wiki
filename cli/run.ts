@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import path from "path";
 
 import tiddlyHtmlStr from "../output/index.html?raw";
-// import injectScriptStr from "./post-boot.js?raw";
+import customFunctionStr from "./custom-functions.js?raw";
 import originScriptStr from "./origin-loadTiddlersBrowser.js?raw";
 import updatedScriptStr from "./updated-loadTiddlersBrowser.js?raw";
 
@@ -48,7 +48,7 @@ for (var n = 0; n < nodes.length; n++) {
 }
 
 // Inject list to post boot
-const updatedScript = updatedScriptStr.replace(
+const updatedScript = customFunctionStr.replace(
   "const list = [];",
   `const list = ${JSON.stringify(list)};`
 );
@@ -62,16 +62,12 @@ if (bootNode && bootNode.parentElement) {
   newScript.type = "application/javascript";
   newScript.textContent = updatedScript;
 
-  bootNode.after(newScript);
+  bootNode.parentElement.insertBefore(newScript, bootNode);
 }
 
 const htmlFilePath = path.resolve(__dirname, "../output/index.html/");
 const updatedHtml = ("<!doctype html>\n" + document.documentElement.outerHTML)
-  .replace(originScriptStr, updatedScript)
-  // .replace(
-  //   "$tw.loadTiddlersBrowser = function() {",
-  //   "$tw.loadTiddlersBrowser = async() => {"
-  // )
+  .replace(originScriptStr, updatedScriptStr)
   .replace(
     "$tw.boot.loadStartup = function(options){",
     "$tw.boot.loadStartup = async (options) => {"
