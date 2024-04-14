@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"start": "tiddlywiki . --listen",
-		"build": "pnpm build:bundle && pnpm build:static",
+		"build": "pnpm build:bundle && pnpm build:static && pnpm run patch",
 		"build:bundle": "tiddlywiki . --build index",
 		"build:static": "cp public/* output",
 		"patch": "vite-node cli/run.ts"

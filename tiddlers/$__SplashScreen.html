@@ -37,6 +37,8 @@
     .tc-remove-when-wiki-loaded {
       font-family: "Roboto Mono", monospace;
       position: absolute;
+      top: 0;
+      left: 0;
       width: 100vw;
       height: 100vh;
       display: flex;
@@ -44,6 +46,7 @@
       justify-content: center;
 
       .loading-box {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -82,12 +85,20 @@
       .load-file {
         font-size: 0.8rem;
         color: rgba(1, 1, 1, 0.6);
+
+        position: absolute;
+        bottom: -1rem;
+        white-space: nowrap;
       }
     }
   </style>
   <div class="loading-box">
     <svg width="143px" height="146px">
-      <defs></defs>
+      <defs>
+        <clipPath id="s5Yi_w7JiM-DgwFdtQRGk" clipPathUnits="userSpaceOnUse">
+          <path d="M 57,89L 1,56.66838492538095 L 1,56.66838492538095 Z"></path>
+        </clipPath>
+      </defs>
       <g transform="translate(0, 0)">
         <circle
           id="progress-bar"
@@ -95,6 +106,7 @@
           cy="89.112114"
           r="56"
           fill="#000"
+          clip-path="url(#s5Yi_w7JiM-DgwFdtQRGk)"
         />
         <circle cx="56.772907" cy="89.112114" r="42" fill="#fff" />
 
@@ -114,7 +126,7 @@
     </svg>
     <div class="title">FlyPie 的異想世界</div>
     <div class="title-secondary">Project:Mind Palace | Tiddlywiki 節點</div>
-    <div id="test-value">Loading...</div>
+    <div class="loading-text">Loading...</div>
     <div class="load-file"></div>
   </div>
 </div>
