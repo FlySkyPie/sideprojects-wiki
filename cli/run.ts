@@ -1,6 +1,7 @@
 import { JSDOM } from "jsdom";
 import fs from "fs-extra";
 import path from "path";
+import cliProgress from "cli-progress";
 
 import tiddlyHtmlStr from "../output/index.html?raw";
 import customFunctionStr from "./custom-functions.js?raw";
@@ -15,6 +16,8 @@ type ITiddler = {
   [key: string]: unknown;
 };
 
+console.log("Extracting Tiddlers...");
+
 const document = new JSDOM(tiddlyHtmlStr).window.document;
 
 /**
@@ -28,7 +31,16 @@ for (var n = 0; n < nodes.length; n++) {
   if (!node.textContent) {
     continue;
   }
+
   const tiddlers: ITiddler[] = JSON.parse(node.textContent);
+
+  const bar1 = new cliProgress.SingleBar(
+    {},
+    cliProgress.Presets.shades_classic
+  );
+
+  bar1.start(tiddlers.length, 0);
+
   for (let index = 0; index < tiddlers.length; index++) {
     const tiddler = tiddlers[index];
     const { title } = tiddler;
@@ -42,10 +54,13 @@ for (var n = 0; n < nodes.length; n++) {
     );
     await fs.ensureFile(filePath);
     await fs.writeFile(filePath, JSON.stringify(tiddler));
+    bar1.update(index + 1);
   }
-
+  bar1.stop();
   node.remove();
 }
+
+console.log("Injecting custom loader...");
 
 // Inject list to post boot
 const updatedScript = customFunctionStr.replace(
